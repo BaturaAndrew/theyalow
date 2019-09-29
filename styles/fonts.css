@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Asap Regular';
+  src: url('../assets/fonts/Asap-Regular.eot');
+  src: url('../assets/fonts/Asap-Regular.woff2') format('woff2'),
+  url('../assets/fonts/Asap-Regular.woff') format('woff'),
+  url('../assets/fonts/Asap-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('../assets/fonts/LucidaSans.eot');
+  src: url('../assets/fonts/LucidaSans.woff2') format('woff2'),
+  url('../assets/fonts/LucidaSans.woff') format('woff'),
+  url('../assets/fonts/LucidaSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe WP';
+  src: url('../assets/fonts/SegoeWP.eot');
+  src: url('../assets/fonts/SegoeWP.woff2') format('woff2'),
+  url('../assets/fonts/SegoeWP.woff') format('woff'),
+  url('../assets/fonts/SegoeWP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../assets/fonts/SegoeUI.eot');
+  src: url('../assets/fonts/SegoeUI.woff2') format('woff2'),
+  url('../assets/fonts/SegoeUI.woff') format('woff'),
+  url('../assets/fonts/SegoeUI.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Segoe UI Bold';
+  src: url('../assets/fonts/SegoeUI-Bold.eot');
+  src: url('../assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
+  url('../assets/fonts/SegoeUI-Bold.woff') format('woff'),
+  url('../assets/fonts/SegoeUI-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('../assets/fonts/MyriadPro-Regular.otf'); 
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+@font-face {
+  font-family: 'PTSans';
+  src: url('../assets/fonts/ptsans/PTSans-Regular.eot'); 
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ 
