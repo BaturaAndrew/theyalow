@@ -4,9 +4,8 @@
  }
 
  .header {
-   /* border: 1px solid red; */
-   height: 566px;
-
+   border: 1px solid red;
+   height: 566px; 
    background-image: url(../assets/images/bgHeader.jpg);
    background-repeat: no-repeat;
    background-position: center;
@@ -14,7 +13,7 @@
  }
 
  .menu {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    margin-top: 26px;
    display: flex;
    justify-content: space-between;
@@ -22,8 +21,9 @@
  }
 
  .logo__link {
-   /* border: 1px solid red; */
-   margin-left: 100px;
+   border: 1px solid red;
+   margin-left: 128px;
+    margin-top: 23px;
    display: flex;
    align-items: center;
    text-decoration: none;
@@ -44,7 +44,7 @@
  }
 
  .navigation {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    display: flex;
    align-items: center;
    list-style: none;
@@ -94,7 +94,7 @@
  }
 
  .header-text {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    width: 392;
    height: 121px;
    text-align: center;
@@ -114,7 +114,8 @@
  }
 
  .products {
-   /* border: 1px solid red; */
+   border: 1px solid red;
+   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
    height: 212px;
    display: flex;
    justify-content: center;
@@ -151,7 +152,7 @@
  }
 
  .background-yellow {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    height: 509px;
    background-image: url(../assets/images/bgYellow.jpg);
    background-repeat: no-repeat;
@@ -161,7 +162,7 @@
 
 
  .yellow-content {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    width: 1019px;
    height: 446px; 
    margin-left: 150px;
@@ -174,14 +175,14 @@
  }
 
  .yellow-content__line {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    height: 233px;
    margin-top: 50px;
  }
 
 
  .line__block {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    height: 233px;
    float: left;
    display: flex;
@@ -253,7 +254,7 @@
  }
 
  .yellow-content__date {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    background-color: #DDB101;
    width: 113px;
    height: 86px;
@@ -315,7 +316,7 @@
 
 
  .background-grey {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    height: 499px;
    background-image: url(../assets/images/bgGray.jpg);
    background-repeat: no-repeat;
@@ -324,7 +325,7 @@
  }
 
  .grey-content {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    width: 1021px;
    height: 353px; 
    margin-left: 150px;
@@ -332,7 +333,7 @@
 
 
  .grey-content h2 {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    text-align: center;
    font: 400 43px 'PTSans', 'Segoe WP';
    color: #F5C506;
@@ -341,35 +342,38 @@
  }
 
  .devices-block {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    display: flex;
    justify-content: center;
    align-items: center;
+   position: relative;
  }
 
  .cycle-img {
-   position: absolute;
-   top: 1367px;
-   left: 148px;
-   width: 115px;
-   height: 115px;
-   border-radius: 50%;
-   background: #f5c506;
-   font: 700 15px "PTSans", sans-serif;
-   color: #ffffff;
-   text-transform: uppercase;
-   text-align: center;
+  border: 1px solid red;
+  position: absolute;
+  top: -53px;
+  left: -33px;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background: #f5c506;
+  font: 700 15px "PTSans", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 110px;
  }
 
  .inner {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    position: absolute;
    top: 43%;
 
  }
 
  .device-list {
-   /* border: 1px solid red; */
+   border: 1px solid red;
    margin-left: 70px;
  }
 
