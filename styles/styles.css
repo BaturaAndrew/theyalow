@@ -4,8 +4,9 @@
  }
 
  .header {
-   border: 1px solid red;
-   height: 566px; 
+   /* border: 1px solid red; */
+   height: 536px;
+   padding-top: 30px;
    background-image: url(../assets/images/bgHeader.jpg);
    background-repeat: no-repeat;
    background-position: center;
@@ -13,47 +14,67 @@
  }
 
  .menu {
-   border: 1px solid red;
-   margin-top: 26px;
+   /* border: 1px solid red; */
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   align-items: flex-end;
  }
 
  .logo__link {
-   border: 1px solid red;
-   margin-left: 128px;
-    margin-top: 23px;
+   /* border: 1px solid red; */
+   margin-left: 143px;
    display: flex;
    align-items: center;
    text-decoration: none;
  }
 
  .logo-ico {
-   height: 100px;
-   width: 100px;
+   height: 80px;
+   width: 80px;
    background-repeat: no-repeat;
    background-position: center;
    background-image: url(../assets/images/logo.png);
  }
 
  .logo__text {
+   margin-top: 8px;
+   margin-left: 5px;
    font: italic 41px "Lucida Sans";
    text-transform: uppercase;
    color: white;
  }
 
  .navigation {
-   border: 1px solid red;
+   /* border: 1px solid red; */
+   margin-right: 139px;
+   width: 454px;
    display: flex;
-   align-items: center;
    list-style: none;
    background-color: #F5C506;
    box-shadow: -4px -4px 0px 0px #9B821B, -8px -8px 0px 0px #857324;
  }
 
+ .navigation__item {
+   padding: 0 13px;
+ }
+
+ .navigation__item:nth-child(1) {
+   margin-right: 10px;
+   margin-left: 35px;
+   padding-right: 23px;
+ }
+
+ .navigation__item:nth-child(2) {
+   margin-right: 11px;
+   padding-right: 18px;
+ }
+
+
+ .navigation__item:nth-child(-n+2) {
+   border-right: 1px solid #DCB105;
+ }
+
  .navigation__link {
-   margin: 0 13px;
    text-decoration: none;
    text-transform: uppercase;
    font: 400 17px/40px "Segoe WP", sans-serif;
@@ -63,24 +84,21 @@
  .about:before {
    content: url(../assets/images/contacts/about-ico.png);
    position: relative;
-   left: 3px;
-   margin-right: 18px;
+   right: 8px;
    top: 3px;
  }
 
  .services:before {
    content: url(../assets/images/contacts/services.png);
    position: relative;
-   left: 3px;
-   margin-right: 18px;
+   right: 8px;
    top: 3px;
  }
 
  .contact:before {
    content: url(../assets/images/contacts/contact.png);
    position: relative;
-   left: 3px;
-   margin-right: 18px;
+   right: 8px;
    top: 3px;
  }
 
@@ -90,27 +108,37 @@
  }
 
  .video {
-   margin-left: 200px;
+   width: 549px;
+   height: 326px;
+   margin-left: 150px;
+   margin-top: 57px;
+   /* border: 1px solid red; */
  }
 
  .header-text {
-   border: 1px solid red;
-   width: 392;
-   height: 121px;
+   /* border: 1px solid red; */
+   margin-left: 48px;
+   margin-top: 31px;
+   line-height: 76px;
    text-align: center;
-   margin-left: 100px;
-   color: white;
- }
-
- .header-text span {
-   color: yellow;
- }
-
- .header__h1 {
-   text-align: center;
-   font-size: 54px;
    text-transform: uppercase;
    font-family: 'Asap Regular';
+   font-size: 63px;
+   letter-spacing: 1px;
+
+ }
+
+ .header__p1 {
+   color: #F5C506;
+   position: relative;
+   top: -3px;
+   right: 7px;
+ }
+
+ .header__p2 {
+   margin: auto;
+   color: white;
+   vertical-align: bottom;
  }
 
  .products {
@@ -119,7 +147,7 @@
    height: 212px;
    display: flex;
    justify-content: center;
-   background-image: url(../assets/images/bgWhite.jpg); 
+   background-image: url(../assets/images/bgWhite.jpg);
  }
 
  .products__item {
@@ -164,7 +192,7 @@
  .yellow-content {
    border: 1px solid red;
    width: 1019px;
-   height: 446px; 
+   height: 446px;
    margin-left: 150px;
  }
 
@@ -327,7 +355,7 @@
  .grey-content {
    border: 1px solid red;
    width: 1021px;
-   height: 353px; 
+   height: 353px;
    margin-left: 150px;
  }
 
@@ -350,19 +378,19 @@
  }
 
  .cycle-img {
-  border: 1px solid red;
-  position: absolute;
-  top: -53px;
-  left: -33px;
-  width: 115px;
-  height: 115px;
-  border-radius: 50%;
-  background: #f5c506;
-  font: 700 15px "PTSans", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 110px;
+   border: 1px solid red;
+   position: absolute;
+   top: -53px;
+   left: -33px;
+   width: 115px;
+   height: 115px;
+   border-radius: 50%;
+   background: #f5c506;
+   font: 700 15px "PTSans", sans-serif;
+   color: #ffffff;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 110px;
  }
 
  .inner {
@@ -414,13 +442,13 @@
    list-style-position: inside;
    list-style-image: url("https://mdn.mozillademos.org/files/11979/starsolid.gif");
  }
- 
+
  footer {
    height: 64px;
    background: #4C4C4C;
    color: white;
  }
- 
+
  .footer-logo img {
    display: block;
    width: 223px;

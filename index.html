@@ -13,12 +13,6 @@
 </head>
 
 <body>
-<div style=" display: grid; width: 400px; grid-template-columns: 40px 50px auto 20% 40px;">
-  <div style="order: 1">1</div>
-  <div style="order: 2">2</div>
-  <div style="order: 1">3</div>
-  <div style="order: -1">4</div>
-</div>
 
   <div class="wrapper">
 
@@ -32,13 +26,13 @@
         </a>
 
         <ul class="navigation">
-          <li>
+          <li class="navigation__item">
             <a class="navigation__link about" href="#">about us</a>
           </li>
-          <li>
+          <li class="navigation__item">
             <a class="navigation__link services" href="#">services</a>
           </li>
-          <li>
+          <li class="navigation__item">
             <a class="navigation__link contact" href="#">contact</a>
           </li>
         </ul>
@@ -47,14 +41,15 @@
 
       <div class="slider-video">
 
-        <div class="video"> <video width="480" controls poster="assets/images/sliderVideo.jpeg">
-            <source  type="video/mp4">
+        <div class="video"> <video width="549" controls poster="assets/images/sliderVideo.jpeg">
+            <source type="video/mp4">
             Your browser doesn't support HTML5 video tag.
           </video>
         </div>
 
         <div class="header-text">
-          <h1 class="header__h1"><span>The cool</span> <br> The minimal</h1>
+          <p class="header__p1">The cool</p>
+          <p class="header__p2">The minimal</p>
         </div>
 
       </div>
@@ -100,7 +95,7 @@
             <div class="line__block block1">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
               <a href="#"> <img class="plus-img" src="assets/images/plus.png" alt="+"></a>
-             
+
             </div>
 
 
@@ -116,7 +111,7 @@
               <div class="twitter-img">
                 <img src="assets/images/twitter.png" alt="Its Free">
               </div>
-              <a href="#"><img class="plus-img" src="assets/images/plus.png" alt="+"></a> 
+              <a href="#"><img class="plus-img" src="assets/images/plus.png" alt="+"></a>
             </div>
 
           </div>
@@ -134,10 +129,9 @@
 
         <div class="grey-content">
           <h2> Lorem ipsum dolor sit amet </h2>
+
           <div class="devices-block">
-            <div class="cycle-img">   
-              Its 100% Free 
-          </div>
+            <div class="cycle-img"> Its 100% Free </div>
             <img src="assets/images/Composed-layer.png" alt="devices">
             <ul class="device-list">
               <li>Sed ut perspiciatis unde omnis</li>
@@ -146,6 +140,7 @@
               <li>Lorem ipsum dolor sit amet, consectetur adipisicing copy</li>
             </ul>
           </div>
+
         </div>
       </section>
     </main>
