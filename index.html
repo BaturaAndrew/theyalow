@@ -16,35 +16,50 @@
 
   <div class="wrapper">
 
-    <header class="header">
+    <div class="container">
 
-      <nav class="menu">
+      <header>
+        <nav class="menu">
 
-        <a class="logo__link" href="">
-          <div class="logo-ico"></div>
-          <div class="logo__text">TheYalow</div>
-        </a>
+          <a class="logo__link" href="">
+            <div class="logo-ico"></div>
+            <div class="logo__text">TheYalow</div>
+          </a>
 
-        <ul class="navigation">
-          <li class="navigation__item">
-            <a class="navigation__link about" href="#">about us</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link services" href="#">services</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link contact" href="#">contact</a>
-          </li>
-        </ul>
+          <ul class="navigation">
+            <li class="navigation__item">
+              <a class="navigation__link about" href="#">about us</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link services" href="#">services</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link contact" href="#">contact</a>
+            </li>
+          </ul>
 
-      </nav>
+        </nav>
+
+      </header>
 
       <div class="slider-video">
-
-        <div class="video"> <video width="549" controls poster="assets/images/sliderVideo.jpeg">
+        <a class="left-slider-button" href="#"></a>
+        <a class="right-slider-button" href="#"></a>
+        <div class="video-container">
+          <video width="549" poster="assets/images/sliderVideo.jpeg">
             <source type="video/mp4">
             Your browser doesn't support HTML5 video tag.
           </video>
+          <div class="video-play-btn">
+            <a href="#"><img src="assets/images/triangle.png" alt="play"></a>
+          </div>
+          <div class="video-controls">
+            <div class="video-play-btn2">
+              <img src="assets/images/min-play.png" alt="play">
+            </div>
+            <input type="range" min="1" max="100" value="50" class="slider1" id="range">
+            <a href="#"><img src="assets/images/volume.png" alt="play"></a>
+          </div>
         </div>
 
         <div class="header-text">
@@ -56,30 +71,30 @@
 
 
 
-    </header>
+    </div>
 
 
     <main>
       <section class="products">
         <div class="products__item">
-          <div class="products__item__img">
+          <div class="products__item__img better">
             <img src="assets/images/better_design.png" alt="better design">
           </div>
-          <h4 class="item__text"> better design</h4>
+          <h4 class="item__text pos-better">better design</h4>
         </div>
 
         <div class="products__item">
-          <div class="products__item__img">
+          <div class="products__item__img customise">
             <img src="assets/images/customise.png" alt="customise">
           </div>
-          <h4 class="item__text"> customise</h4>
+          <h4 class="item__text pos-customise">customise</h4>
         </div>
 
         <div class="products__item">
-          <div class="products__item__img">
-            <img src="assets/images/Its_Free.png" alt="Its Free">
+          <div class="products__item__img free">
+            <img src="assets/images/its_free.png" alt="Its Free">
           </div>
-          <h4 class="item__text"> Its Free</h4>
+          <h4 class="item__text  pos-free">its free</h4>
         </div>
 
       </section>
@@ -93,16 +108,15 @@
           <div class="yellow-content__line">
 
             <div class="line__block block1">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
-              <a href="#"> <img class="plus-img" src="assets/images/plus.png" alt="+"></a>
-
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut</p>
+              <a class="plus-img1" href="#"> <img src="assets/images/plus.png" alt="+"></a>
             </div>
 
 
             <div class="line__block block2">
               <div class="video-block">
-                <div class="play-img">
-                  <img src="assets/images/triangle.png" alt="play">
+                <div class="video-play">
+                  <a href="#"> <img src="assets/images/triangle.png" alt="play"></a>
                 </div>
               </div>
             </div>
@@ -111,13 +125,15 @@
               <div class="twitter-img">
                 <img src="assets/images/twitter.png" alt="Its Free">
               </div>
-              <a href="#"><img class="plus-img" src="assets/images/plus.png" alt="+"></a>
+              <div class="twitter-number">22</div>
+              <a class="plus-img2" href="#"><img src="assets/images/plus.png" alt="+"></a>
             </div>
 
           </div>
 
           <div class="yellow-content__date">
-            <span>25</span> <br> april
+            <span>25</span>
+            <p>april</p>
           </div>
 
           <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
