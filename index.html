@@ -18,12 +18,14 @@
 
     <div class="container">
 
-      <header>
-        <nav class="menu">
+      <header class="header">
 
+        <nav class="menu">
           <a class="logo__link" href="">
             <div class="logo-ico"></div>
-            <div class="logo__text">TheYalow</div>
+            <div class="logo__text">
+              <h1>TheYalow</h1>
+            </div>
           </a>
 
           <ul class="navigation">
@@ -37,7 +39,6 @@
               <a class="navigation__link contact" href="#">contact</a>
             </li>
           </ul>
-
         </nav>
 
       </header>
@@ -46,7 +47,7 @@
         <a class="left-slider-button" href="#"></a>
         <a class="right-slider-button" href="#"></a>
         <div class="video-container">
-          <video width="549" poster="assets/images/sliderVideo.jpeg">
+          <video width="549" poster="assets/images/video-plaseholder1.jpeg">
             <source type="video/mp4">
             Your browser doesn't support HTML5 video tag.
           </video>
@@ -54,11 +55,13 @@
             <a href="#"><img src="assets/images/triangle.png" alt="play"></a>
           </div>
           <div class="video-controls">
-            <div class="video-play-btn2">
-              <img src="assets/images/min-play.png" alt="play">
+            <div class="ctrl-play-btn">
+              <img src="assets/images/triangle.png" alt="play">
             </div>
-            <input type="range" min="1" max="100" value="50" class="slider1" id="range">
-            <a href="#"><img src="assets/images/volume.png" alt="play"></a>
+            <input class="ctrl-slider" type="range" min="1" max="100" value="0">
+            <a class="ctrl-volume" href="">
+              <img src="assets/images/volume.png" alt="play">
+            </a>
           </div>
         </div>
 
@@ -69,10 +72,7 @@
 
       </div>
 
-
-
     </div>
-
 
     <main>
       <section class="products">
@@ -99,13 +99,14 @@
 
       </section>
 
-      <section class="background-yellow">
+      <section class="info-section">
 
-        <div class="yellow-content">
+        <div class="info-content">
           <h2>
             Lorem ipsum dolor sit amet
           </h2>
-          <div class="yellow-content__line">
+
+          <div class="info-content__line">
 
             <div class="line__block block1">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut</p>
@@ -131,7 +132,9 @@
 
           </div>
 
-          <div class="yellow-content__date">
+
+
+          <div class="info-content__date">
             <span>25</span>
             <p>april</p>
           </div>
@@ -141,14 +144,18 @@
 
       </section>
 
-      <section class="background-grey">
+      <section class="devices-section">
 
-        <div class="grey-content">
+        <div class="devices-content">
           <h2> Lorem ipsum dolor sit amet </h2>
 
           <div class="devices-block">
-            <div class="cycle-img"> Its 100% Free </div>
-            <img src="assets/images/Composed-layer.png" alt="devices">
+
+            <div class="devices-block__img">
+              <div class="cycle-img"> Its 100% Free </div>
+              <img src="assets/images/devices.png" alt="devices">
+            </div>
+
             <ul class="device-list">
               <li>Sed ut perspiciatis unde omnis</li>
               <li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>
