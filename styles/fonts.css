@@ -29,6 +29,13 @@
 }
 
 @font-face {
+  font-family: 'Segoe WP Light';
+  src: url('../assets/fonts/segoe-wp-light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Segoe UI Light';
   src: url('../assets/fonts/SegoeUI-Light.eot');
   src: url('../assets/fonts/SegoeUI-Light.woff2') format('woff2'),
